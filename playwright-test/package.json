@@ -1,15 +1,16 @@
 {
-  "name": "playwright-test",
+  "name": "talent-tinaapi",
   "version": "1.0.0",
   "description": "Automated functional UI tests using Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@playwright/test": "^1.45.1",
     "playwright": "^1.15.1"
   }
 }
